@@ -68,6 +68,18 @@ $ conda install -c conda-forge deepxde
 $ git clone https://github.com/lululxvi/deepxde.git
 ```
 
+  From the cloned directory execute:
+
+```
+$ python3 setup.py install --build-base=$WORKSPACE_PATH/DEEPXDE/deepxde-build --home=$WORKSPACE_PATH/DEEPXDE/deepxde-install
+```
+
+  Finally, export the following path:
+
+```
+$ export PYTHONPATH=$WORKSPACE_PATH"/DEEPXDE/deepxde-install/lib/python/DeepXDE-0.9.1-py3.8.egg" 
+```
+
 - Dependencies
 
   - [Matplotlib](https://matplotlib.org/)
