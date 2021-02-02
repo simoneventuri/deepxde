@@ -71,7 +71,7 @@ $ git clone https://github.com/lululxvi/deepxde.git
   From the cloned directory execute:
 
 ```
-$ python3 setup.py install --build-base=$WORKSPACE_PATH/DEEPXDE/deepxde-build --home=$WORKSPACE_PATH/DEEPXDE/deepxde-install
+$ python3 setup.py build --build-base=$WORKSPACE_PATH/DEEPXDE/deepxde-build; python3 setup.py install --home=$WORKSPACE_PATH/DEEPXDE/deepxde-install
 ```
 
   Finally, export the following path:
